@@ -108,7 +108,7 @@ namespace RestAPI
         public async Task OnExecuteAsync()
         {
             var client = new HttpClient();
-            var Isi = new { id = Convert.ToInt32(idNum), done = true };
+            var Isi = new { id = Convert.ToInt32(idNum), Done = true };
 
             var data = new StringContent(JsonConvert.SerializeObject(Isi), Encoding.UTF8, "application/json");
             await client.PatchAsync($"http://localhost:3000/todo/{idNum}", data);
@@ -125,7 +125,7 @@ namespace RestAPI
         public async Task OnExecuteAsync()
         {
             var client = new HttpClient();
-            var Isi = new { id = Convert.ToInt32(idNum), done = false };
+            var Isi = new { id = Convert.ToInt32(idNum), Done = false };
 
             var data = new StringContent(JsonConvert.SerializeObject(Isi), Encoding.UTF8, "application/json");
             await client.PatchAsync($"http://localhost:3000/todo/{idNum}", data);

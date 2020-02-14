@@ -7,15 +7,28 @@
     },
     {
       "id": 2,
-      "Activity": "Kasih makan kucing oren",
-      "Done": true,
-      "done": false
+      "Activity": "Ke dokter kucing tapi boong",
+      "Done": false
     },
     {
       "id": 3,
       "Activity": "Mandikan kucing",
-      "Done": false,
-      "done": true
+      "Done": false
+    },
+    {
+      "id": 4,
+      "Activity": "Bersihkan rumah kucing",
+      "Done": false
+    },
+    {
+      "id": 5,
+      "Activity": "Kumpul komunitas pecinta kucing",
+      "Done": false
+    },
+    {
+      "id": 6,
+      "Activity": "Kumpul komunitas",
+      "Done": false
     }
   ]
 }

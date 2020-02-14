@@ -1,0 +1,21 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "Activity": "Kasih makan kucing",
+      "Done": true
+    },
+    {
+      "id": 2,
+      "Activity": "Kasih makan kucing oren",
+      "Done": true,
+      "done": false
+    },
+    {
+      "id": 3,
+      "Activity": "Mandikan kucing",
+      "Done": false,
+      "done": true
+    }
+  ]
+}
